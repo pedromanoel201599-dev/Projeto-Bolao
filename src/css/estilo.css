@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #dcdcdc;
+}
+
+
+header{
+    height: 130px;
+    background: #2ABA02;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header img{
+    margin-left: auto;
+    height: 100%;
+    display: block;
+}
+
+
