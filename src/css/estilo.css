@@ -30,3 +30,71 @@ header img{
 }
 
 
+#container{
+    padding: 30px 50px;
+}
+
+#container h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+
+.card-game{
+    width: 260px;
+    background: #2C4498;
+    padding: 20px;
+    color: white;
+}
+
+.bolao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bolao h3{
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.bolao div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.bolao input{
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.btn-comprar{
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.historico{
+    width: 550px;
+    height: 100px;
+    background: #2C4498;
+    margin-top: 20px;
+}
+
