@@ -12,44 +12,56 @@
         <img src="./src/assets/logo.png" alt="logo">
     </header>
 
-    <main id="container">
-        <h2>Próximas Partidas</h2>
-        <section class="card">
-            <div class="card-game">
-                <article class="bolao">
-                    <h3>Brasil VS Haiti</h3>
-                    <h3>21/06 - 21:30</h3>
-                    <div>
-                        <input type="number" id="Brasil" name="Brasil" min="0" max="10" placeholder="Brasil">
-                        <input type="number" id="Haiti" name="Haiti" min="0" max="10" placeholder="Haiti">
-                    </div>
-                    <button class="btn-comprar">PALPITE</button>
-                </article>
-            </div>
+<main id="container">
 
-            <div class="card-game">
-                <article class="bolao">
-                    <h3>Holanda VS Japão</h3>
-                    <h3>15/06 - 16:00</h3>
-                    <div>
-                        <input type="number" id="Holanda" name="Holanda" min="0" max="10" placeholder="Holanda">
-                        <input type="number" id="Japão" name="Japão" min="0" max="10" placeholder="Japão">
-                    </div>
-                    <button class="btn-comprar">PALPITE</button>
-                </article>
-            </div>
-        </section>
+    <div class="conteudo">
 
-        <h2>Histórico de Palpites</h2>
+        <div class="jogos">
+            <h2>Próximas Partidas</h2>
 
-        <div class="historico">
+            <section class="card">
+                <div class="card-game">
+                    <article class="bolao">
+                        <h3>Brasil VS Haiti</h3>
+                        <h3>21/06 - 21:30</h3>
+                        <div>
+                            <input type="number" id="Brasil" min="0" max="10" placeholder="Brasil">
+                            <input type="number" id="Haiti" min="0" max="10" placeholder="Haiti">
+                        </div>
+                        <button class="btn-palpite" onclick="enviarPalpite()">PALPITE</button>
+                    </article>
+                </div>
 
+                <div class="card-game">
+                    <article class="bolao">
+                        <h3>Holanda VS Japão</h3>
+                        <h3>15/06 - 16:00</h3>
+                        <div>
+                            <input type="number" id="Holanda" min="0" max="10" placeholder="Holanda">
+                            <input type="number" id="Japão" min="0" max="10" placeholder="Japão">
+                        </div>
+                        <button class="btn-palpite" onclick="enviarPalpite()">PALPITE</button>
+                    </article>
+                </div>
+            </section>
         </div>
 
-    </main>
+        <div class="area-historico">
+            <h2>Histórico de Palpites</h2>
+
+            <div class="historico">
+                <img src="./src/assets/historico.png" alt="historico">
+            </div>
+        </div>
+
+    </div>
+
+</main>
 
     <footer>
-        <p>© - 2026 - BOLÃO</p>
+        <p>&copy - 2026 - BOLÃO</p>
     </footer>
+
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
