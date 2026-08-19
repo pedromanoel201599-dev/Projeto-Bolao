@@ -1,3 +1,9 @@
+:root{
+    --bg-success: #12FF26
+    --bg-warning: #FFF212
+    --bg-danger: #FF1212
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -131,4 +137,16 @@ footer{
     font-size: 1.3rem;
     background-color: #2ABA02;
     color:black;
+}
+
+.bg-success{
+    background-color: green;
+}
+
+.bg-warning{
+    background-color: yellow;
+}
+
+.bg-danger{
+    background-color: red;
 }
