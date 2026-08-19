@@ -1,9 +1,8 @@
 // DECLARAÇÃO DAS VARIAVEIS 
 const placarOficial ={
-    1:{time1:2, time2:1},
+    1:{time1:3, time2:0},
     2:{time1:2,time2:2}
 }
-
 // Declara a função que captura e valida o palpite do usuário
 function salvarPalpite(nomeJogo, id) {
 
@@ -14,7 +13,7 @@ function salvarPalpite(nomeJogo, id) {
     // VALIDAÇÃO DE CAMPOS VAZIOS ---
     // Verifica se o valor é uma string vazia ou se não é um número
     if (input1.value === "" || input2.value === "") {
-        alert("Atenção: Você precisa preencher os dois placares!");
+        alert("Atenção: Placar invalido ou vázio");
         return; // Interrompe a função aqui, não executa o resto
     }
   
