@@ -3,6 +3,7 @@ const placarOficial ={
     1:{time1:2, time2:1},
     2:{time1:2,time2:2}
 }
+
 // Declara a função que captura e valida o palpite do usuário
 function salvarPalpite(nomeJogo, id) {
 
