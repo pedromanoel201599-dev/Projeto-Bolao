@@ -1,152 +1,161 @@
 :root{
-    --bg-success: #12FF26
-    --bg-warning: #FFF212
-    --bg-danger: #FF1212
+    --bg-success:#12FF26;
+    --bg-warning:#FFF212;
+    --bg-danger:#FF1212;
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
 }
 
-html, body{
-    height: 100%;
+html,body{
+    height:100%;
 }
 
 body{
-    background: #dcdcdc;
-    display: flex;
-    flex-direction: column;
+    background:white;
+    display:flex;
+    flex-direction:column;
 }
 
-
 header{
-    height: 130px;
-    background: #2ABA02;
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
+    height:100px;
+    background:#2ABA02;
+    display:flex;
+    align-items:center;
+    padding-left:40px;
 }
 
 .logo{
-    font-size: 2rem;
-    font-weight: bold;
+    font-size:1.3rem;
+    font-weight:normal;
 }
 
 header img{
-    margin-left: auto;
-    height: 100%;
-    display: block;
+    margin-left:auto;
+    height:100%;
+    display:block;
 }
 
-
 #container{
-    padding: 30px 50px;
-    flex: 1;
+    padding:30px 50px;
+    flex:1;
 }
 
 #container h2{
-    font-size: 2rem;
-    margin-bottom: 30px;
+    font-size:1.4rem;
+    font-weight:normal;
+    margin-bottom:50px;
 }
 
 .conteudo{
-    display: flex;
-    align-items: flex-start;
-    gap: 50px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content:flex-start;
+    gap:60px;
 }
 
 .jogos{
-    flex: 1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .card{
-    display: flex;
-    gap: 50px;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+    display:flex;
+    gap:60px;
+    margin-bottom:0;
 }
 
-
 .card-game{
-    width: 260px;
-    background: #2C4498;
-    padding: 20px;
-    color: white;
+    width:240px;
+    height:190px;
+    background:#2C4498;
+    padding:20px;
+    color:white;
+    border-radius:25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .bolao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .bolao h3{
-    font-size: 1.1rem;
-    font-weight: normal;
-    margin-bottom: 5px;
+    font-size:1rem;
+    font-weight:normal;
+    margin-bottom:3px;
 }
 
 .bolao div{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    margin:18px 0;
 }
 
 .bolao input{
-    width: 90px;
-    height: 35px;
-    text-align: center;
-    border: none;
-    outline: none;
+    width:65px;
+    height:25px;
+    text-align:center;
+    border:none;
+    outline:none;
 }
 
 .btn-palpite{
-    width: 120px;
-    height: 35px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 1rem;
+    width:85px;
+    height:30px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:.9rem;
 }
 
+.area-historico{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
 
 .historico{
-    width: 322px;
-    height: 300px;
-    background: #2C4498;
-    margin-top: 20px;
-    margin-left: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    width:320px;
+    height:340px;
+    background:#2C4498;
+    display:flex;
+    align-items:center;
+    border-radius:25px;
+    overflow:hidden;
 }
 
 .historico img{
-    width: 100px;
-    height: auto;
-    display: block;
+    width:105px;
+    height:auto;
+    display:block;
 }
 
 footer{
-    text-align: center;
-    padding: 30px 0;
-    font-size: 1.3rem;
-    background-color: #2ABA02;
+    text-align:center;
+    padding:15px 0;
+    font-size:.8rem;
     color:black;
 }
 
 .bg-success{
-    background-color: green;
+    background-color:green;
 }
 
 .bg-warning{
-    background-color: yellow;
+    background-color:yellow;
 }
 
 .bg-danger{
-    background-color: red;
+    background-color:red;
 }
